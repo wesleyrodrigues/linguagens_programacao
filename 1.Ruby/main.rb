@@ -1,30 +1,30 @@
 # irb terminal
-
-class ClassName
-  def fun
-    # algo
-  end
-end
-
-a = 1
+2**3            # 8
+1.0 == 1        # true
+1.0.eql?(1)     # false
+1 <=> 1         # 0
+1 <=> 2         # -1
+2 <=> 1         # 1
+(1..10) === 10  # true
+(1...10) === 10 # false
+# equal? for object
+1/2 # 0
 
 3.times { puts "Hello!" } # Hello!/nHello!/nHello!
 
-s1 = ["colors", "red", "blue", "green"]
-s2 = ["letters", "a", "b", "c"]
-s3 = "foo"
-a = [s1, s2, s3]
-a.assoc("letters") # [ "letters", "a", "b", "c" ]
-a.assoc("foo") # nil
+local_v   # Local Variable
+@inst_v   # Instance Variable
+@@class_v # Class Variable
+$global_v # Global Variable
+ClassN    # Class Name
+CONST_N   # Constant Name     
 
-h = {"colors" => ["red", "blue", "green"],
-     "letters" => ["a", "b", "c"]}
-h.assoc("letters") # ["letters", ["a", "b", "c"]]
-h.assoc("foo")  # nil
+Time.now.thursday? # true
 
-a = gets.chomp # input sem quebra de linha
-b = gets # input com quebra de linha
+for i in 0...gets.to_i
+  puts i
+end
 
-n = 10
-n.is_a? Integer # verificar se n é inteiro
-
+for i in 1..gets.to_i
+  puts i
+end
