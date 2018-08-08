@@ -1,14 +1,26 @@
-nums = [] 
-for i in range(0, int(input())):
-    string = input()
-    num = int(input())
-    for i in string:
-        pos = ord(i) - num
-        if pos < 65:
-            pos = 91 - (65 - pos)
-            num += [chr(pos)]
-        else:
-            chr(pos), end=""
-    print()
+lista = ["pedra", "papel", "tesoura"]
 
-for i in nums:
+for a in lista:
+    for b in lista:
+        for c in lista:
+                print("%s %s %s" % (a, b, c))
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
