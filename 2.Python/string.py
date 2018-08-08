@@ -51,6 +51,7 @@ f'{10:#o}', f'{10:o}'               # ('0o12', '12')
 
 "12345".ljust(10, "0") # considera o tamanho da string e completa
 "12345".rjust(10, "0") # mesmo que anterior só que adiciona na frente
+" ".join(["1", "2", "3"]) # 1 2 3
 
 str.casefold()
 str.center(width[, fillchar])
@@ -62,7 +63,6 @@ str.find(sub[, start[, end]])
 str.format(*args, **kwargs)
 str.format_map(mapping)
 str.index(sub[, start[, end]])
-str.join(iterable)
 str.lstrip([chars])
 str.partition(sep)
 str.rfind(sub[, start[, end]])
