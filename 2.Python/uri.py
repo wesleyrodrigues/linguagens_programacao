@@ -1,19 +1,21 @@
-lista0 = []
-for i in range(0, int(input())):
-    s = input()
-    lista = [s[2:4], s[5:8], s[-2:]]
-    n = 0
+try:
+    string = input()
+    while string:
+        v = 0
+        promo, qtd_lata = string.split()
+        promo, qtd_lata = int(promo), int(qtd_lata)
+        
+        for i in range(0, promo):
+            bebi, reais = input().split()
+            bebi, reais = int(bebi), int(reais)
+            
+            v_n = (qtd_lata // bebi) * reais
+            
+            if v_n > v:
+                v = v_n
+        
+        print(v)
+        string = input()
 
-    for i in lista:
-        if len(i) == 3:
-            if not(i[1].isdigit()):
-                for a in [n for n in i if n.isdigit()]:
-                    n += int(a)
-            else:
-                n += int("".join([l for l in i if l.isdigit()]))
-        else:
-            n += int("".join([l for l in i if l.isdigit()]))
-    lista0.append(n)
-
-for i in range(0, len(lista0)):
-    print(lista0[i])
+except EOFError:
+    pass
