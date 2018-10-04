@@ -1,20 +1,23 @@
 # listas
 in del
 
-lista = [1, 2, 3]
+lista = [1, 2, 1, 3]
 
-list.append() # lista.append()
-list.count() # lista.count(
-list.insert() # lista.insert(
-list.remove() # lista.remove( 
-list.clear() # lista.clear(
+len(lista)                # 4
+lista.append(4)           # [1, 2, 1, 3, 4]
+lista.count(1)            # 2
+lista.pop()               # 4 # remove último item da lista
+lista.sort()              # ordena lista # [1, 1, 2, 3]
+lista.sort(reverse=True)  # ordena lista # [3, 2, 1, 1]
+lista.remove(1)           # [3, 2, 1]
+lista.reverse()           # [1, 2, 3] reverte a lista
+lista.index(1)            # 0 retorna index do valor passado
+lista.insert(0, 10)       # [10, 1, 2, 3] add um número na posição indicada
+lista.clear()             # [] apaga todos itens da lista
+lista.copy()              # [10, 1, 2, 3] copia a lista
+
 list.extend() # lista.extend(
 list.mro()
-list.reverse() # lista.reverse(
-list.copy() # lista.copy(
-list.index() # lista.index(
-list.pop() # lista.pop(
-list.sort() # lista.sort(    
 
 all([True, False])                  # False
 any([True, False])                  # True
@@ -24,7 +27,7 @@ list((1, 2, 3))                     # [1, 2, 3]
 max([1, 5, 2, 9, 3, 4])             # 9  # Maior valor de uma lista
 min([1, 5, 2, 9, 3, 4])             # 1  # Menor valor de uma lista
 sorted([2, 3, 1])                   # [1, 2, 3]
-sorted([2, 3, 1], reverse = False)  # [3, 2, 1]
+sorted([2, 3, 1], reverse = True)   # [3, 2, 1]
 
 enum = enumerate([1, 2, 3])         # <enumerate object at 0x7f09352221f8>
 list(enum)                          # [(0, 1), (1, 2), (2, 3)]
