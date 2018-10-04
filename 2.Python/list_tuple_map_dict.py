@@ -47,18 +47,21 @@ list(rang)                        # [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
 
 d = {"key1": 1, "key2": "value2", "key3": [1, 2]}   # Dicionário
 
-dict.clear( # dic.clear(
-dict.get( # dic.get(
-dict.mro(
-dict.setdefault( # dic.setdefault(
-dict.copy(  # dic.copy(
-dict.items( # dic.items(
-dict.pop( # dic.pop(
-dict.update( # dic.update(
-dict.fromkeys(  # dic.fromkeys(
-dict.keys(  # dic.keys(
-dict.popitem(   # dic.popitem(
-dict.values(    # dic.values(
+d.items()         # dict_items([('key1', 1), ('key2', 'value2'), ('key3', [1, 2])])
+list(d.items())   # [('key1', 1), ('key2', 'value2'), ('key3', [1, 2])]
+d.values()        # dict_values([1, 'value2', [1, 2]])
+list(d.values())  # [1, 'value2', [1, 2]]
+d.pop("key1")     # 1
+d.keys()          # dict_keys(['key2', 'key3'])
+
+dict.clear() # dic.clear(
+dict.get() # dic.get(
+dict.mro()
+dict.setdefault() # dic.setdefault(
+dict.copy()  # dic.copy(
+dict.update() # dic.update(
+dict.fromkeys()  # dic.fromkeys(
+dict.popitem()   # dic.popitem(
 
 # Edições de um dicionário
 
