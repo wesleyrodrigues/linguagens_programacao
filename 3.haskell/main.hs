@@ -11,10 +11,10 @@ doubleSmallNumber' x = (if x > 100 then x else x * 2) + 1
 
 -- ghci> let lostNumbers = [4,8,15,16,23,48]
 -- ghci> lostNumbers -> [4,8,15,16,23,48] --> Só aceita um tipo em listas (Ex int).
--- ghci> [1,2,3,4] ++ [9,10,11,12] -> [1,2,3,4,9,10,11,12]  
--- ghci> "hello" ++ " " ++ "world" -> "hello world"  
--- ghci> ['w','o'] ++ ['o','t']    -> "woot" 
--- ghci> 'Q':" GATINHA" -> "Q GATINHA"  
+-- ghci> [1,2,3,4] ++ [9,10,11,12] -> [1,2,3,4,9,10,11,12]
+-- ghci> "hello" ++ " " ++ "world" -> "hello world"
+-- ghci> ['w','o'] ++ ['o','t']    -> "woot"
+-- ghci> 'Q':" GATINHA" -> "Q GATINHA"
 -- ghci> 5:[1,2,3,4,5]  -> [5,1,2,3,4,5]
 -- ghci> "Steve Buscemi" !! 6            -> 'B'  --> retornando um número por index
 -- ghci> [9.4,33.2,96.2,11.2,23.25] !! 1 -> 33.2 --> retornando um número por index
@@ -23,5 +23,13 @@ doubleSmallNumber' x = (if x > 100 then x else x * 2) + 1
 -- ghci> last [5,4,3,2,1] -> 1
 -- ghci> init [5,4,3,2,1] -> [5,4,3,2] --> retorna tudo com exceção do último elemento.
 -- ghci> length [5,4,3,2,1] -> 5
--- ghci> null [1,2,3] -> False  
+-- ghci> null [1,2,3] -> False
 -- ghci> null []      -> True
+-- ghci> reverse [5,4,3,2,1] -> [1,2,3,4,5]
+-- ghci> take 3 [5,4,3,2,1]  -> [5,4,3]
+-- ghci> drop 3 [8,4,2,1,5,6] -> [1,5,6]
+-- ghci> minimum [8,4,2,1,5,6] -> 1
+-- ghci> maximum [8,4,2,1,5,6] -> 8
+-- ghci> sum [5,2,1,6,3,2,5,7] -> 31  
+-- ghci> product [6,2,1,2] -> 24
+-- ghci> 4 `elem` [3,4,5,6] -> True 
