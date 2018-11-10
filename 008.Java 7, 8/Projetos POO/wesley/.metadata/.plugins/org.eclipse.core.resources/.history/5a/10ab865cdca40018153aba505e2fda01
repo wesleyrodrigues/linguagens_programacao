@@ -1,0 +1,13 @@
+package aula5;
+
+public class Run2 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Veiculo s10Aleff = new S10();
+		Veiculo hornetFabricio = new Titan150();
+		
+		Moto moto1 = new Moto();
+	}
+
+}

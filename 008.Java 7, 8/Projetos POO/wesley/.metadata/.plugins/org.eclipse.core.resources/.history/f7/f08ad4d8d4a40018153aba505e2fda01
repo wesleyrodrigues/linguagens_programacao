@@ -1,0 +1,15 @@
+package aula5;
+
+public class Aluno extends Pessoa{
+
+	@Override
+	public void falar() {
+		
+	}
+
+	@Override
+	public void andar() {
+		
+	}
+
+}

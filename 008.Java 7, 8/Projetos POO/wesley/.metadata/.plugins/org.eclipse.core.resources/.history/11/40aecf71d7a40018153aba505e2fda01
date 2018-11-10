@@ -1,0 +1,16 @@
+package aula5;
+
+public abstract class Veiculo {
+	protected String placa;
+	protected String motor;
+	protected String chassi;
+	protected String mataCachorro;
+	
+	protected void ligar(){
+		System.out.println("Liga veiculo");
+	}
+	
+	protected void acelearar(){
+		System.out.println("Acelera o veiculo");
+	}
+}

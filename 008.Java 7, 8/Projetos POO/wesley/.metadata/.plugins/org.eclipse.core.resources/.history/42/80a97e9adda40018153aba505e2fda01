@@ -1,0 +1,16 @@
+package aula5;
+
+public class Cb300 extends Moto {
+
+	@Override
+	public void ligar() {
+		
+	}
+
+	@Override
+	public void acelerar() {
+		// TODO Auto-generated method stub
+		
+	}
+
+}

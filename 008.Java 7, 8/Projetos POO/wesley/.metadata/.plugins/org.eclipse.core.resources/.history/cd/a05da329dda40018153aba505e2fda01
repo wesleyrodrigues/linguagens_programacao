@@ -1,0 +1,17 @@
+package aula5;
+
+public class Titan150 extends Moto {
+
+	@Override
+	public void ligar() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void acelerar() {
+		// TODO Auto-generated method stub
+		
+	}
+
+}

@@ -1,0 +1,5 @@
+package aula5;
+
+public abstract class Moto extends Veiculo {
+	public String guidon;
+}

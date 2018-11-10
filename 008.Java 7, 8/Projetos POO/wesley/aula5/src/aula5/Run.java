@@ -1,0 +1,12 @@
+package aula5;
+
+public class Run {
+
+	public static void main(String[] args) {
+		Pessoa aluno = new Aluno();
+		aluno.falar();
+		Pessoa professor = new Professor();
+		professor.andar();
+	}
+
+}
