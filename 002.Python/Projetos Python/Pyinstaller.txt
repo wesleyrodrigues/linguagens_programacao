@@ -1,0 +1,2 @@
+pyinstaller yourprogram.py
+pyinstaller --noconsole yourprogram.py
