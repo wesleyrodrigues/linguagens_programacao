@@ -1,0 +1,3 @@
+Para executar aplicação abra as pastas e execute o "App"
+
+dist/App/App.exe
