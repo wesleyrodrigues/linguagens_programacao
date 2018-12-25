@@ -1,4 +1,5 @@
 https://www.devmedia.com.br/tkinter-interfaces-graficas-em-python/33956
+http://effbot.org/tkinterbook/tkinter-events-and-bindings.htm pegar tudo depois TODO
 
 O módulo Tkinter oferece três formas de trabalharmos com geometria e posicionamento:
 Pack; Grid; Place.
@@ -15,3 +16,10 @@ event handlers
     botão esquerdo do mouse = "<Button-1>" 
     botão ENTER = "<Return>" 
     botão direito do mouse = "<Button-3>".
+
+if __name__ == '__main__':
+    root = Tk()
+    root.title("My Database")
+    root.geometry("500x400")
+    app = start_window(root)
+    root.mainloop()
