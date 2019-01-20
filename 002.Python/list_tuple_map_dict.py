@@ -2,8 +2,10 @@
 in del
 
 lista = [1, 2, 1, 3]
+lista2 = ["um", "dois", "um", "um"]
 
 len(lista)                # 4
+list(lista2).count("um")  # 3
 lista.append(4)           # [1, 2, 1, 3, 4]
 lista.count(1)            # 2
 lista.pop()               # 4 # remove último item da lista
@@ -43,6 +45,8 @@ list(mapa)                        # [1.0, 2.0, 3.0, 4.0]
 
 rang = range(0, 10)               # range(0, 10)
 list(rang)                        # [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+
+# collections adicionar depois 
 
 ##################################################################
 # Dicionário
