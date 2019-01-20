@@ -12,19 +12,17 @@ class Conta:
         return self.__titular
 
     @property
-    def saldo(self): #conta.saldo
+    def saldo(self):  # conta.saldo
         return self.__saldo
-    
-    @property # conta.limite 
-    def limite(self): # Melhora a legibilidade
-        return self.__limite
-    
-    
 
-    @limite.setter # conta.limite = 200.00
-    def limite(self, limite):  # Melhora a legibilidade 
+    @property  # conta.limite
+    def limite(self):  # Melhora a legibilidade
+        return self.__limite
+
+    @limite.setter  # conta.limite = 200.00
+    def limite(self, limite):  # Melhora a legibilidade
         self.__limite = limite
-    
+
     def __pode_sacar(self, valor_a_sacar):
         valor_disponivel_a_sacar = self.__saldo + self.__limite
         return valor_a_sacar <= valor_disponivel_a_sacar
@@ -47,5 +45,5 @@ class Conta:
         destino.deposita(valor)
 
     @staticmethod
-    def codigo_banco(): # Método estático. # Pode ser acessado diretamente Conta.codigo_banco()
+    def codigo_banco():  # Método estático. # Pode ser acessado diretamente Conta.codigo_banco()
         return "001"
