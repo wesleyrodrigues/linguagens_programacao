@@ -3,6 +3,16 @@ in del
 
 lista = [1, 2, 1, 3]
 lista2 = ["um", "dois", "um", "um"]
+lista3 = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+tamlist3 = len(lista3) - 1 # Tamanho index 
+
+lista3[:5]                # [1, 2, 3, 4, 5]
+lista3[5:]                # [6, 7, 8, 9, 10]
+lista3[-2:]               # [9, 10]
+lista3[2:5]               # [3, 4, 5]
+lista3[0::2]              # [1, 3, 5, 7, 9]
+lista3[0:tamlist3:2]      # [1, 3, 5, 7, 9]
+lista3[tamlist3::-1]      # [10, 9, 8, 7, 6, 5, 4, 3, 2, 1]
 
 len(lista)                # 4
 list(lista2).count("um")  # 3
