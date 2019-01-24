@@ -21,7 +21,7 @@ divmod(10, 2)                       # (5, 0) Retorna divisão e resto
 pow(10, 2)                          # 100 -> 10**2
 round(20.2834, 2)                   # 20.28
 
-int.bit_length(6)    # 3 Retorna tamanho bit 7bit = 110 => três números ou caracteres 
+int.bit_length(6)    # 3 Retorna tamanho bit 7 bit = 110 => três números ou caracteres 
 int.from_bytes(b'\x00\x10', byteorder='big')
 int.from_bytes(b'\x00\x10', byteorder='little')
 int.from_bytes(b'\xfc\x00', byteorder='big', signed=True)
