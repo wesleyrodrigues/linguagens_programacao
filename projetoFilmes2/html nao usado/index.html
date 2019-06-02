@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>SL Filmes</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="css/estilos.css">
+    <script src="js/main.js"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+</head>
+
+<!-- <style>
+       a:link,
+    a:visited {
+        color: blue;
+        text-decoration: none
+    }
+
+    a:hover {
+        color: aliceblue
+    }
+
+
+    a.nounderline:link /*CLASSE PARA TIRAR O SUBLINHADO DO LINK*/
+    { 
+    text-decoration:none; 
+    } 
+    </style> -->
+
+<body background="img/vingadores.png">
+    
+    <!--AQUI É A BARRA DE NAVEGAÇÃO -->
+    <div class='row'>
+        <div class='col-sm-12'>
+
+           
+            <nav class="navbar  navbar-expand-lg navbar-dark bg-ligth" style="background-color:black">
+                    
+                    <a class="navbar-brand" href="index.php">SL Filmes</a>
+                    <button class="navbar-toggler" aria-expanded="false" aria-controls="navbarSupportedContent" aria-label="Toggle navigation" type="button" data-target="#navbarSupportedContent" data-toggle="collapse">
+                        <span class="navbar-toggler-icon"></span> </button>
+                            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                                <ul class="navbar-nav mr-auto">
+                                    <li class="nav-item ">
+                                        <a class="nav-link" href="index.php">INICIO</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="cadastro.php">COMPRA DE INGRESSOS</a>
+                                    </li>
+                                    
+                                    <li class="nav-item">
+                                        <a class="nav-link " href="exibicao.php">EXIBIÇÃO</a>
+                                    </li>
+                                </ul>  
+                            </div>
+                </nav>
+        </div>
+    </div>
+            <!--CONTEUDO AO MEIO FILMES ETC-->        
+    </header>
+        <div class='container-fluid'>
+            <div role="main">
+                <div class="row">
+                                    <!--MEXE NÃO, TA FUNCIONANDO E TA ESTRUTURADO, É MUDAR UMA VIRGURA DA MERDA NISSO KKKKKKKK-->
+                                   
+                                    <div class='col-sm-1 center2 hover-image span'></div>
+                                    <!--IMAGEM 01 CAPITÃ MARVEL-->
+                                    <div class=" col-sm-2 center2 hover-image span" id="fonte1">
+                                        <a href="filmes/filme1.html"><img width="140" height="190" class='imgA' src="img/capita.jpg"></a>
+                                        <span class="texto fonte1">LANÇAMENTO</span>
+                                        <br><a class='nounderline' href="filmes/filme1.html"> CAPITÃ MARVEL </a>
+                                    
+                                    </div>
+                                    <!--IMAGEM 02 DUMBO-->
+                                    <div class=" col-sm-2 center2 hover-image span" id="fonte1">
+                                        <a href="filmes/filme2.html"><img width="140" height="190" class="imgA" src="img/dumbo.jpg"></a>
+                                        <span class="texto fonte1">LANÇAMENTO</span>
+                                        <br><a class='nounderline' href="filmes/filme2.html"> DUMBO </a>
+                                    </div>
+                                     <!--IMAGEM 03 SHAZAM-->
+                                    <div class=" col-sm-2 center2 hover-image span" id="fonte1">
+                                        <a href="filmes/filme3.html"><img width="140" height="190" class="imgA" src="img/shazam.jpg"></a>
+                                        <span class="texto fonte1">EM EXIBIÇÃOO</span>
+                                        <br><a class='nounderline' href="filmes/filme3.html"> SHAZAM! </a>
+                                    </div>
+                                    <!--IMAGEM 04  VINGADORES-->
+                                    <div class=" col-sm-2 center2 hover-image span" id="fonte1">
+                                            <a href="filmes/filme3.html"><img width="140" height="190" class="imgA" src="img/vingadores.png"></a>
+                                            <span class="texto fonte1">EM EXIBIÇÃO</span>
+                                            <br><a class='nounderline' href="filmes/filme3.html">  VINGADORES </a>
+                                        </div>
+                                    <div class='col-sm-1 center2 hover-image span'></div>
+
+                </div>
+            </div>
+
+
+            <!--BOTÃO DE COMPRE AGORA SEU INGRESSO-->
+            
+            <div class='container-fluid'>
+                    <div role="main">
+                        <div class="row">
+                            <div class="col-sm-4" ></div>
+
+                            <div class="col-sm-4"id="btnCompreIngresso">
+                                <a href="cadastro.php"><button  type="button"  class="btn btn-danger btn-lg">CLIQUE PRA COMPRAR SEU INGRESSO</button></a>
+                            </div>
+
+                            <div class="col-sm-4"></div>
+                           
+                            </div>
+                     </div>
+             </div>
+        
+        </div>
+        
+
+
+     
+        <!--RODAPÉ DP SITE-->
+                <footer>
+                    <div class="container-fluid">
+                        <div class='row'>
+                                <div class="row">
+                                        
+            
+                                        <div class='col-sm-12'style="color: #FFF; top: 50px; left: 163%;">
+                                                TODOS OS DIREITOS RESERVADOS © SL FILMES 
+                                        </div>
+            
+                                        
+
+                </footer>
+             </div> 
+                    
+            <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+            <script src="js/bootstrap.min.js"></script>
+
+    
+</body>
+
+</html>

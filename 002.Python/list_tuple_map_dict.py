@@ -1,5 +1,5 @@
 # listas
-in del
+# in del
 
 lista = [1, 2, 1, 3]
 lista2 = ["um", "dois", "um", "um"]
