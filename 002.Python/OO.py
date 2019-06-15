@@ -47,3 +47,23 @@ class Conta:
     @staticmethod
     def codigo_banco():  # Método estático. # Pode ser acessado diretamente Conta.codigo_banco()
         return "001"
+
+conta = Conta(4568, "Wesley", 200.00, 1000.00)
+conta1 = Conta(4578, "William", 500.00, 3000.00)
+
+print(conta.titular) # Wesley
+print(conta.saldo) # 200.00
+print(conta.limite) # 1000.00
+
+conta.saca(1300.00) # O valor 1300.0 passou o limite
+conta.saca(300)
+
+print(conta.saldo) # -100.0
+print(conta.limite) # 1000.0
+
+conta.deposita(200)
+conta.extrato() # Titular Wesley valor em conta 100.0
+conta1.transfere(100, conta)
+conta.extrato() # Titular Wesley valor em conta 200.0
+
+print(conta.codigo_banco()) # 001

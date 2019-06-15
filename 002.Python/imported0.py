@@ -216,3 +216,7 @@ collections.deque()
 collections.KeysView()
 collections.namedtuple()
 collections.Mapping()
+
+import pyperclip # Precisa instalar a biblioteca padrão primeiro
+pyperclip.copy()
+pyperclip.paste
