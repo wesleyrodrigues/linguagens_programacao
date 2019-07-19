@@ -6,6 +6,7 @@ lista2 = ["um", "dois", "um", "um"]
 lista3 = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
 tamlist3 = len(lista3) - 1 # Tamanho index 
 
+"um" in lista2 # True
 [d for d in lista3 if d % 2] # [1, 3, 5, 7, 9]
 lista3[:5]                # [1, 2, 3, 4, 5]
 lista3[5:]                # [6, 7, 8, 9, 10]

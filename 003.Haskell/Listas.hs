@@ -38,9 +38,9 @@ v36 = [ x | x <- [10..20], x /= 13, x /= 15, x /= 19] -- [10,11,12,14,16,17,18,2
 v37 = [ x*y | x <- [2,5,10], y <- [8,10,11]] -- [16,20,22,40,50,55,80,100,110] 
 v38 = [ x*y | x <- [2,5,10], y <- [8,10,11], x*y > 50] -- [55,80,100,110]
 v39 = [ (a,b,c) | c <- [1..10], b <- [1..c], a <- [1..b], a^2 + b^2 == c^2, a+b+c == 24]
--- v40 = 
--- v41 = 
--- v42 = 
+v40 = show 3.45 -- Retorna 3.45 em string
+v41 = read "3" + 3 -- Retorna o tipo dependendo do lado direito ex read "3.25" + 1.5
+v42 = read "5" :: Float -- Especifica o tipo de retorno 
 -- v43 = 
 -- v44 = 
 -- v45 = 

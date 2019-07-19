@@ -33,7 +33,7 @@ f'{10:#o}', f'{10:o}'               # ('0o12', '12')
 "learn".replace("l", "D")           # 'Dearn'   -> Troca uma letra por outra
 "1".zfill(3)                        # '001' -> Adiciona zeros(0) na frente da string até tamanho definido
 "   space   ".strip()               # 'space'
-   "space".strip("sep")             # 'ac'
+"space".strip("sep")                # 'ac'
 
 
 "learn python".split()              # ['learn', 'python']
