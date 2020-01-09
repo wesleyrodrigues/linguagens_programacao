@@ -1,0 +1,258 @@
+
+CommandType     Name                                               Version    Source
+-----------     ----                                               -------    ------
+                                            
+Alias           ? -> Where-Object                                             
+Alias           ac -> Add-Content                                             
+Alias           Add-AppPackage                                     2.0.1.0    Appx
+Alias           Add-AppPackageVolume                               2.0.1.0    Appx
+Alias           Add-AppProvisionedPackage                          3.0        Dism
+Alias           Add-ProvisionedAppPackage                          3.0        Dism
+Alias           Add-ProvisionedAppxPackage                         3.0        Dism
+Alias           algm ->                                            1.0.0.0    Microsoft.PowerShell.LocalAccounts
+Alias           Apply-WindowsUnattend                              3.0        Dism
+Alias           blsmba ->                                          2.0.0.0    SmbShare
+Alias           cat -> Get-Content                                            
+                                            
+                                         
+Alias           clc -> Clear-Content                                          
+Alias           clear -> Clear-Host                                           
+Alias           clhy -> Clear-History                                         
+Alias           cli -> Clear-Item                                             
+Alias           clp -> Clear-ItemProperty                                     
+Alias           cls -> Clear-Host                                             
+Alias           clv -> Clear-Variable                                         
+Alias           cnsn -> Connect-PSSession                                     
+Alias           compare -> Compare-Object                                     
+Alias           copy -> Copy-Item                                             
+Alias           cp -> Copy-Item                                               
+Alias           cpi -> Copy-Item                                              
+Alias           cpp -> Copy-ItemProperty                                      
+Alias           cssmbo ->                                          2.0.0.0    SmbShare
+Alias           cssmbse ->                                         2.0.0.0    SmbShare
+Alias           cvpa -> Convert-Path                                          
+Alias           dbp -> Disable-PSBreakpoint                                   
+                                         
+Alias           diff -> Compare-Object                                        
+                                                    
+Alias           Disable-PhysicalDiskIndication                     2.0.0.0    Storage
+Alias           Disable-StorageDiagnosticLog                       2.0.0.0    Storage
+Alias           Dismount-AppPackageVolume                          2.0.1.0    Appx
+Alias           dlu ->                                             1.0.0.0    Microsoft.PowerShell.LocalAccounts
+Alias           dnsn -> Disconnect-PSSession                                  
+Alias           dsmbd ->                                           2.0.0.0    SmbShare
+Alias           ebp -> Enable-PSBreakpoint                                    
+Alias           echo -> Write-Output                                          
+Alias           elu ->                                             1.0.0.0    Microsoft.PowerShell.LocalAccounts
+Alias           Enable-PhysicalDiskIndication                      2.0.0.0    Storage
+Alias           Enable-StorageDiagnosticLog                        2.0.0.0    Storage
+Alias           epal -> Export-Alias                                          
+Alias           epcsv -> Export-Csv                                           
+                                        
+Alias           esmbd ->                                           2.0.0.0    SmbShare
+Alias           etsn -> Enter-PSSession                                       
+Alias           exsn -> Exit-PSSession                                        
+Alias           fc -> Format-Custom                                           
+Alias           fhx -> Format-Hex                                  6.1.0.0    Microsoft.PowerShell.Utility
+Alias           fimo ->                                            2.1.3      PowerShellGet
+Alias           fl -> Format-List                                             
+Alias           Flush-Volume                                       2.0.0.0    Storage
+                                     
+Alias           ft -> Format-Table                                            
+Alias           fw -> Format-Wide                                             
+Alias           gal -> Get-Alias                                              
+Alias           gbp -> Get-PSBreakpoint                                       
+Alias           gc -> Get-Content                                             
+Alias           gcai ->                                            6.1.0.0    CimCmdlets
+                                                     
+Alias           gcim ->                                            6.1.0.0    CimCmdlets
+Alias           gcls ->                                            6.1.0.0    CimCmdlets
+Alias           gcm -> Get-Command                                            
+Alias           gcms ->                                            6.1.0.0    CimCmdlets
+Alias           gcs -> Get-PSCallStack                                        
+Alias           gdr -> Get-PSDrive                                            
+Alias           Get-AppPackage                                     2.0.1.0    Appx
+Alias           Get-AppPackageDefaultVolume                        2.0.1.0    Appx
+Alias           Get-AppPackageLastError                            2.0.1.0    Appx
+Alias           Get-AppPackageLog                                  2.0.1.0    Appx
+Alias           Get-AppPackageManifest                             2.0.1.0    Appx
+Alias           Get-AppPackageVolume                               2.0.1.0    Appx
+Alias           Get-AppProvisionedPackage                          3.0        Dism
+Alias           Get-DiskSNV                                        2.0.0.0    Storage
+Alias           Get-PhysicalDiskSNV                                2.0.0.0    Storage
+Alias           Get-ProvisionedAppPackage                          3.0        Dism
+Alias           Get-ProvisionedAppxPackage                         3.0        Dism
+Alias           Get-StorageEnclosureSNV                            2.0.0.0    Storage
+Alias           ghy -> Get-History                                            
+Alias           gi -> Get-Item                                                
+Alias           gin -> Get-ComputerInfo                            6.1.0.0    Microsoft.PowerShell.Management
+Alias           gip ->                                             1.0.0.0    NetTCPIP
+Alias           gjb -> Get-Job                                                
+Alias           gl -> Get-Location                                            
+Alias           glg ->                                             1.0.0.0    Microsoft.PowerShell.LocalAccounts
+Alias           glgm ->                                            1.0.0.0    Microsoft.PowerShell.LocalAccounts
+Alias           glu ->                                             1.0.0.0    Microsoft.PowerShell.LocalAccounts
+Alias           gm -> Get-Member                                              
+Alias           gmo -> Get-Module                                             
+Alias           gp -> Get-ItemProperty                                        
+Alias           gps -> Get-Process                                            
+Alias           gpv -> Get-ItemPropertyValue                                  
+Alias           group -> Group-Object                                         
+Alias           grsmba ->                                          2.0.0.0    SmbShare
+Alias           gsmba ->                                           2.0.0.0    SmbShare
+Alias           gsmbb ->                                           2.0.0.0    SmbShare
+Alias           gsmbc ->                                           2.0.0.0    SmbShare
+Alias           gsmbcc ->                                          2.0.0.0    SmbShare
+Alias           gsmbcn ->                                          2.0.0.0    SmbShare
+Alias           gsmbd ->                                           2.0.0.0    SmbShare
+Alias           gsmbgm ->                                          2.0.0.0    SmbShare
+Alias           gsmbm ->                                           2.0.0.0    SmbShare
+Alias           gsmbmc ->                                          2.0.0.0    SmbShare
+Alias           gsmbo ->                                           2.0.0.0    SmbShare
+Alias           gsmbs ->                                           2.0.0.0    SmbShare
+Alias           gsmbsc ->                                          2.0.0.0    SmbShare
+Alias           gsmbse ->                                          2.0.0.0    SmbShare
+Alias           gsmbsn ->                                          2.0.0.0    SmbShare
+Alias           gsmbt ->                                           2.0.0.0    SmbShare
+Alias           gsmbw ->                                           2.0.0.0    SmbWitness
+Alias           gsn -> Get-PSSession                                          
+Alias           gsv -> Get-Service                                            
+Alias           gtz -> Get-TimeZone                                6.1.0.0    Microsoft.PowerShell.Management
+Alias           gu -> Get-Unique                                              
+Alias           gv -> Get-Variable                                            
+Alias           h -> Get-History                                              
+Alias           history -> Get-History                                        
+Alias           icim ->                                            6.1.0.0    CimCmdlets
+Alias           icm -> Invoke-Command                                         
+Alias           iex -> Invoke-Expression                                      
+Alias           ihy -> Invoke-History                                         
+Alias           ii -> Invoke-Item                                             
+Alias           Initialize-Volume                                  2.0.0.0    Storage
+Alias           inmo ->                                            2.1.3      PowerShellGet
+Alias           ipal -> Import-Alias                                          
+Alias           ipcsv -> Import-Csv                                           
+Alias           ipmo -> Import-Module                                         
+Alias           irm -> Invoke-RestMethod                                      
+Alias           iru ->                                             1.0.0.0    AppBackgroundTask
+Alias           iwr -> Invoke-WebRequest                                      
+                                         
+                                       
+Alias           man -> help                                                   
+Alias           md -> mkdir                                                   
+Alias           measure -> Measure-Object                                     
+                                                 
+Alias           mount -> New-PSDrive                                          
+Alias           Mount-AppPackageVolume                             2.0.1.0    Appx
+                                             
+Alias           Move-AppPackage                                    2.0.1.0    Appx
+Alias           Move-SmbClient                                     2.0.0.0    SmbWitness
+Alias           mp -> Move-ItemProperty                                       
+Alias           msmbw ->                                           2.0.0.0    SmbWitness
+                                               
+Alias           nal -> New-Alias                                              
+Alias           ncim ->                                            6.1.0.0    CimCmdlets
+Alias           ncms ->                                            6.1.0.0    CimCmdlets
+Alias           ncso ->                                            6.1.0.0    CimCmdlets
+Alias           ndr -> New-PSDrive                                            
+                                              
+Alias           nlg ->                                             1.0.0.0    Microsoft.PowerShell.LocalAccounts
+Alias           nlu ->                                             1.0.0.0    Microsoft.PowerShell.LocalAccounts
+Alias           nmo -> New-Module                                             
+Alias           nsmbgm ->                                          2.0.0.0    SmbShare
+Alias           nsmbm ->                                           2.0.0.0    SmbShare
+Alias           nsmbs ->                                           2.0.0.0    SmbShare
+Alias           nsmbt ->                                           2.0.0.0    SmbShare
+Alias           nsn -> New-PSSession                                          
+Alias           nv -> New-Variable                                            
+Alias           oh -> Out-Host                                                
+Alias           Optimize-AppProvisionedPackages                    3.0        Dism
+Alias           Optimize-ProvisionedAppPackages                    3.0        Dism
+Alias           Optimize-ProvisionedAppxPackages                   3.0        Dism
+Alias           pfn ->                                             1.0.0.0    AppBackgroundTask
+Alias           popd -> Pop-Location                                          
+Alias           ps -> Get-Process                                             
+Alias           pumo ->                                            2.1.3      PowerShellGet
+Alias           pushd -> Push-Location                                        
+Alias           pwd -> Get-Location                                           
+Alias           r -> Invoke-History                                           
+Alias           rbp -> Remove-PSBreakpoint                                    
+Alias           rcie ->                                            6.1.0.0    CimCmdlets
+Alias           rcim ->                                            6.1.0.0    CimCmdlets
+Alias           rcjb -> Receive-Job                                           
+Alias           rcms ->                                            6.1.0.0    CimCmdlets
+Alias           rcsn -> Receive-PSSession                                     
+                                           
+Alias           rdr -> Remove-PSDrive                                         
+Alias           Remove-AppPackage                                  2.0.1.0    Appx
+Alias           Remove-AppPackageVolume                            2.0.1.0    Appx
+Alias           Remove-AppProvisionedPackage                       3.0        Dism
+Alias           Remove-EtwTraceSession                             1.0.0.0    EventTracingManagement
+Alias           Remove-ProvisionedAppPackage                       3.0        Dism
+Alias           Remove-ProvisionedAppxPackage                      3.0        Dism
+                                           
+                                           
+Alias           rjb -> Remove-Job                                             
+Alias           rksmba ->                                          2.0.0.0    SmbShare
+Alias           rlg ->                                             1.0.0.0    Microsoft.PowerShell.LocalAccounts
+Alias           rlgm ->                                            1.0.0.0    Microsoft.PowerShell.LocalAccounts
+Alias           rlu ->                                             1.0.0.0    Microsoft.PowerShell.LocalAccounts
+                                        
+Alias           rmo -> Remove-Module                                          
+                                         
+Alias           rnlg ->                                            1.0.0.0    Microsoft.PowerShell.LocalAccounts
+Alias           rnlu ->                                            1.0.0.0    Microsoft.PowerShell.LocalAccounts
+Alias           rnp -> Rename-ItemProperty                                    
+Alias           rp -> Remove-ItemProperty                                     
+Alias           rsmbb ->                                           2.0.0.0    SmbShare
+Alias           rsmbgm ->                                          2.0.0.0    SmbShare
+Alias           rsmbm ->                                           2.0.0.0    SmbShare
+Alias           rsmbs ->                                           2.0.0.0    SmbShare
+Alias           rsmbt ->                                           2.0.0.0    SmbShare
+Alias           rsn -> Remove-PSSession                                       
+Alias           rv -> Remove-Variable                                         
+Alias           rvpa -> Resolve-Path                                          
+Alias           sajb -> Start-Job                                             
+Alias           sal -> Set-Alias                                              
+                                       
+Alias           sasv -> Start-Service                                         
+Alias           sbp -> Set-PSBreakpoint                                       
+Alias           scim ->                                            6.1.0.0    CimCmdlets
+Alias           select -> Select-Object                                       
+Alias           set -> Set-Variable                                           
+Alias           Set-AppPackageDefaultVolume                        2.0.1.0    Appx
+Alias           Set-AppPackageProvisionedDataFile                  3.0        Dism
+Alias           Set-AutologgerConfig                               1.0.0.0    EventTracingManagement
+Alias           Set-EtwTraceSession                                1.0.0.0    EventTracingManagement
+Alias           Set-ProvisionedAppPackageDataFile                  3.0        Dism
+Alias           Set-ProvisionedAppXDataFile                        3.0        Dism
+Alias           si -> Set-Item                                                
+                                            
+Alias           sleep -> Start-Sleep                                          
+Alias           slg ->                                             1.0.0.0    Microsoft.PowerShell.LocalAccounts
+Alias           sls -> Select-String                                          
+Alias           slu ->                                             1.0.0.0    Microsoft.PowerShell.LocalAccounts
+Alias           sort -> Sort-Object                                           
+                                       
+Alias           spjb -> Stop-Job                                              
+                                       
+Alias           spsv -> Stop-Service                                          
+Alias           ssmbb ->                                           2.0.0.0    SmbShare
+Alias           ssmbcc ->                                          2.0.0.0    SmbShare
+Alias           ssmbp ->                                           2.0.0.0    SmbShare
+Alias           ssmbs ->                                           2.0.0.0    SmbShare
+Alias           ssmbsc ->                                          2.0.0.0    SmbShare
+                                        
+Alias           stz -> Set-TimeZone                                6.1.0.0    Microsoft.PowerShell.Management
+Alias           sv -> Set-Variable                                            
+Alias           tee -> Tee-Object                                             
+Alias           tid ->                                             1.0.0.0    AppBackgroundTask
+Alias           TNC ->                                             1.0.0.0    NetTCPIP
+Alias           type -> Get-Content                                           
+Alias           udsmbmc ->                                         2.0.0.0    SmbShare
+Alias           ulsmba ->                                          2.0.0.0    SmbShare
+Alias           upmo ->                                            2.1.3      PowerShellGet
+Alias           where -> Where-Object                                         
+Alias           wjb -> Wait-Job                                               
+Alias           write -> Write-Output                                         
+Alias           Write-FileSystemCache                              2.0.0.0    Storage
+
