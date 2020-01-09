@@ -1,9 +1,9 @@
-
+Get-Command -CommandType Alias
 CommandType     Name                                               Version    Source
 -----------     ----                                               -------    ------
                                             
 Alias           ? -> Where-Object                                             
-Alias           ac -> Add-Content                                             
+
 Alias           Add-AppPackage                                     2.0.1.0    Appx
 Alias           Add-AppPackageVolume                               2.0.1.0    Appx
 Alias           Add-AppProvisionedPackage                          3.0        Dism
@@ -12,7 +12,7 @@ Alias           Add-ProvisionedAppxPackage                         3.0        Di
 Alias           algm ->                                            1.0.0.0    Microsoft.PowerShell.LocalAccounts
 Alias           Apply-WindowsUnattend                              3.0        Dism
 Alias           blsmba ->                                          2.0.0.0    SmbShare
-Alias           cat -> Get-Content                                            
+
                                             
                                          
 Alias           clc -> Clear-Content                                          
@@ -24,9 +24,7 @@ Alias           cls -> Clear-Host
 Alias           clv -> Clear-Variable                                         
 Alias           cnsn -> Connect-PSSession                                     
 Alias           compare -> Compare-Object                                     
-Alias           copy -> Copy-Item                                             
-Alias           cp -> Copy-Item                                               
-Alias           cpi -> Copy-Item                                              
+                                             
 Alias           cpp -> Copy-ItemProperty                                      
 Alias           cssmbo ->                                          2.0.0.0    SmbShare
 Alias           cssmbse ->                                         2.0.0.0    SmbShare
@@ -62,7 +60,7 @@ Alias           ft -> Format-Table
 Alias           fw -> Format-Wide                                             
 Alias           gal -> Get-Alias                                              
 Alias           gbp -> Get-PSBreakpoint                                       
-Alias           gc -> Get-Content                                             
+
 Alias           gcai ->                                            6.1.0.0    CimCmdlets
                                                      
 Alias           gcim ->                                            6.1.0.0    CimCmdlets
@@ -84,7 +82,7 @@ Alias           Get-ProvisionedAppPackage                          3.0        Di
 Alias           Get-ProvisionedAppxPackage                         3.0        Dism
 Alias           Get-StorageEnclosureSNV                            2.0.0.0    Storage
 Alias           ghy -> Get-History                                            
-Alias           gi -> Get-Item                                                
+
 Alias           gin -> Get-ComputerInfo                            6.1.0.0    Microsoft.PowerShell.Management
 Alias           gip ->                                             1.0.0.0    NetTCPIP
 Alias           gjb -> Get-Job                                                
@@ -94,9 +92,9 @@ Alias           glgm ->                                            1.0.0.0    Mi
 Alias           glu ->                                             1.0.0.0    Microsoft.PowerShell.LocalAccounts
 Alias           gm -> Get-Member                                              
 Alias           gmo -> Get-Module                                             
-Alias           gp -> Get-ItemProperty                                        
+                                   
 Alias           gps -> Get-Process                                            
-Alias           gpv -> Get-ItemPropertyValue                                  
+                               
 Alias           group -> Group-Object                                         
 Alias           grsmba ->                                          2.0.0.0    SmbShare
 Alias           gsmba ->                                           2.0.0.0    SmbShare
@@ -126,7 +124,7 @@ Alias           icim ->                                            6.1.0.0    Ci
 Alias           icm -> Invoke-Command                                         
 Alias           iex -> Invoke-Expression                                      
 Alias           ihy -> Invoke-History                                         
-Alias           ii -> Invoke-Item                                             
+
 Alias           Initialize-Volume                                  2.0.0.0    Storage
 Alias           inmo ->                                            2.1.3      PowerShellGet
 Alias           ipal -> Import-Alias                                          
@@ -225,7 +223,7 @@ Alias           Set-AutologgerConfig                               1.0.0.0    Ev
 Alias           Set-EtwTraceSession                                1.0.0.0    EventTracingManagement
 Alias           Set-ProvisionedAppPackageDataFile                  3.0        Dism
 Alias           Set-ProvisionedAppXDataFile                        3.0        Dism
-Alias           si -> Set-Item                                                
+                                               
                                             
 Alias           sleep -> Start-Sleep                                          
 Alias           slg ->                                             1.0.0.0    Microsoft.PowerShell.LocalAccounts
@@ -247,7 +245,7 @@ Alias           sv -> Set-Variable
 Alias           tee -> Tee-Object                                             
 Alias           tid ->                                             1.0.0.0    AppBackgroundTask
 Alias           TNC ->                                             1.0.0.0    NetTCPIP
-Alias           type -> Get-Content                                           
+
 Alias           udsmbmc ->                                         2.0.0.0    SmbShare
 Alias           ulsmba ->                                          2.0.0.0    SmbShare
 Alias           upmo ->                                            2.1.3      PowerShellGet
@@ -256,3 +254,4 @@ Alias           wjb -> Wait-Job
 Alias           write -> Write-Output                                         
 Alias           Write-FileSystemCache                              2.0.0.0    Storage
 
+End of file

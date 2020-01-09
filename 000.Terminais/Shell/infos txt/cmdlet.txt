@@ -1,10 +1,10 @@
-
+Get-Command -CommandType Cmdlet
 CommandType     Name                                               Version    Source
 -----------     ----                                               -------    ------
 Cmdlet          Add-AppxPackage                                    2.0.1.0    Appx
 Cmdlet          Add-AppxProvisionedPackage                         3.0        Dism
 Cmdlet          Add-AppxVolume                                     2.0.1.0    Appx
-Cmdlet          Add-Content                                        6.1.0.0    Microsoft.PowerShell.Management
+
 Cmdlet          Add-History                                        6.2.3.0    Microsoft.PowerShell.Core
 Cmdlet          Add-LocalGroupMember                               1.0.0.0    Microsoft.PowerShell.LocalAccounts
 Cmdlet          Add-Member                                         6.1.0.0    Microsoft.PowerShell.Utility
@@ -38,7 +38,7 @@ Cmdlet          ConvertTo-ProcessMitigationPolicy                  1.0.11     Pr
 Cmdlet          ConvertTo-SecureString                             6.1.0.0    Microsoft.PowerShell.Security
 Cmdlet          ConvertTo-TpmOwnerAuth                             2.0.0.0    TrustedPlatformModule
 Cmdlet          ConvertTo-Xml                                      6.1.0.0    Microsoft.PowerShell.Utility
-Cmdlet          Copy-Item                                          6.1.0.0    Microsoft.PowerShell.Management
+
 Cmdlet          Copy-ItemProperty                                  6.1.0.0    Microsoft.PowerShell.Management
 Cmdlet          Debug-Job                                          6.2.3.0    Microsoft.PowerShell.Core
 Cmdlet          Debug-Process                                      6.1.0.0    Microsoft.PowerShell.Management
@@ -114,7 +114,7 @@ Cmdlet          Get-CimSession                                     6.1.0.0    Ci
 Cmdlet          Get-CmsMessage                                     6.1.0.0    Microsoft.PowerShell.Security
 Cmdlet          Get-Command                                        6.2.3.0    Microsoft.PowerShell.Core
 Cmdlet          Get-ComputerInfo                                   6.1.0.0    Microsoft.PowerShell.Management
-Cmdlet          Get-Content                                        6.1.0.0    Microsoft.PowerShell.Management
+
 Cmdlet          Get-Counter                                        3.0.0.0    Microsoft.PowerShell.Diagnostics
 Cmdlet          Get-Credential                                     6.1.0.0    Microsoft.PowerShell.Security
 Cmdlet          Get-Culture                                        6.1.0.0    Microsoft.PowerShell.Utility
@@ -137,9 +137,8 @@ Cmdlet          Get-FormatData                                     6.1.0.0    Mi
 Cmdlet          Get-Help                                           6.2.3.0    Microsoft.PowerShell.Core
 Cmdlet          Get-History                                        6.2.3.0    Microsoft.PowerShell.Core
 Cmdlet          Get-Host                                           6.1.0.0    Microsoft.PowerShell.Utility
-Cmdlet          Get-Item                                           6.1.0.0    Microsoft.PowerShell.Management
-Cmdlet          Get-ItemProperty                                   6.1.0.0    Microsoft.PowerShell.Management
-Cmdlet          Get-ItemPropertyValue                              6.1.0.0    Microsoft.PowerShell.Management
+
+
 Cmdlet          Get-Job                                            6.2.3.0    Microsoft.PowerShell.Core
 Cmdlet          Get-LocalGroup                                     1.0.0.0    Microsoft.PowerShell.LocalAccounts
 Cmdlet          Get-LocalGroupMember                               1.0.0.0    Microsoft.PowerShell.LocalAccounts
@@ -227,7 +226,7 @@ Cmdlet          Invoke-Command                                     6.2.3.0    Mi
 Cmdlet          Invoke-CommandInDesktopPackage                     2.0.1.0    Appx
 Cmdlet          Invoke-Expression                                  6.1.0.0    Microsoft.PowerShell.Utility
 Cmdlet          Invoke-History                                     6.2.3.0    Microsoft.PowerShell.Core
-Cmdlet          Invoke-Item                                        6.1.0.0    Microsoft.PowerShell.Management
+
 Cmdlet          Invoke-RestMethod                                  6.1.0.0    Microsoft.PowerShell.Utility
 Cmdlet          Invoke-TroubleshootingPack                         1.0.0.0    TroubleshootingPack
 Cmdlet          Invoke-WebRequest                                  6.1.0.0    Microsoft.PowerShell.Utility
@@ -352,7 +351,7 @@ Cmdlet          Set-DODownloadMode                                 1.0.2.0    De
 Cmdlet          Set-DOPercentageMaxBackgroundBandwidth             1.0.2.0    DeliveryOptimization
 Cmdlet          Set-DOPercentageMaxForegroundBandwidth             1.0.2.0    DeliveryOptimization
 Cmdlet          Set-ExecutionPolicy                                6.1.0.0    Microsoft.PowerShell.Security
-Cmdlet          Set-Item                                           6.1.0.0    Microsoft.PowerShell.Management
+
 
 Cmdlet          Set-LocalGroup                                     1.0.0.0    Microsoft.PowerShell.LocalAccounts
 Cmdlet          Set-LocalUser                                      1.0.0.0    Microsoft.PowerShell.LocalAccounts
@@ -441,3 +440,4 @@ Cmdlet          Write-Progress                                     6.1.0.0    Mi
 Cmdlet          Write-Verbose                                      6.1.0.0    Microsoft.PowerShell.Utility
 Cmdlet          Write-Warning                                      6.1.0.0    Microsoft.PowerShell.Utility
 
+End of file
