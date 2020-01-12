@@ -1,3 +1,4 @@
+# Save in %SystemRoot%\system32\WindowsPowerShell\v1.0\Modules
 <#
  .Synopsis
   Displays a visual representation of a calendar.
