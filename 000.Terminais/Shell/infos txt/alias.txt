@@ -93,7 +93,7 @@ Alias           glu ->                                             1.0.0.0    Mi
 Alias           gm -> Get-Member                                              
 Alias           gmo -> Get-Module                                             
                                    
-Alias           gps -> Get-Process                                            
+                                           
                                
 Alias           group -> Group-Object                                         
 Alias           grsmba ->                                          2.0.0.0    SmbShare
@@ -168,7 +168,7 @@ Alias           Optimize-ProvisionedAppPackages                    3.0        Di
 Alias           Optimize-ProvisionedAppxPackages                   3.0        Dism
 Alias           pfn ->                                             1.0.0.0    AppBackgroundTask
 Alias           popd -> Pop-Location                                          
-Alias           ps -> Get-Process                                             
+                                          
 Alias           pumo ->                                            2.1.3      PowerShellGet
 Alias           pushd -> Push-Location                                        
 Alias           pwd -> Get-Location                                           
@@ -229,7 +229,7 @@ Alias           sleep -> Start-Sleep
 Alias           slg ->                                             1.0.0.0    Microsoft.PowerShell.LocalAccounts
 Alias           sls -> Select-String                                          
 Alias           slu ->                                             1.0.0.0    Microsoft.PowerShell.LocalAccounts
-Alias           sort -> Sort-Object                                           
+
                                        
 Alias           spjb -> Stop-Job                                              
                                        

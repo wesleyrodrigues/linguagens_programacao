@@ -46,6 +46,11 @@ Cmdlet Set-Item
 ALIASES -> si 
 # Key-words: definir item, alias
 
+Get-Process | Sort-Object –p CPU | Select-Object –last 5
+Cmdlet Get-Process          Cmdlet Sort-Object          Cmdlet Select-Object
+ALIASES -> gps, ps          ALIASES -> sort             ALIASES -> select 
+# Key-words: Oter processos, listar, ordenar, selecionar
+
 Start-Process -FilePath "notepad" -Wait -WindowStyle Minimized  # excecutavel
 Cmdlet Start-Process
 ALIASES -> saps, start
