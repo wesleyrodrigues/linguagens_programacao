@@ -32,7 +32,7 @@ for i in range(0, len(xy)):
 pyautogui.hotkey('up') # seta para cima volta para último comando
 pyautogui.moveTo(571, 550) # Posição: Em cima da próxima música
 
-
+pyautogui.press
 # https://automatetheboringstuff.com/chapter18/
 # https://imasters.com.br/back-end/automacao-de-gui-com-python-exemplo-de-uso-do-pyautogui-2
 # https://pyautogui.readthedocs.io/en/latest/
