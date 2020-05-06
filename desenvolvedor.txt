@@ -1,0 +1,13 @@
+Visual Code
+    Atom One Dark Theme
+    "editor.fontFamily": "Fira Code",
+    "editor.fontLigatures": true,
+
+PowerShell
+    Install-Module PSColor 
+    Test-Path $Profile - Caso dê falso
+        -> New-Item –Path $Profile –Type File –Force
+    notepad $profile
+    Import-Module PSColor
+    choco install firacode-ttf
+    
