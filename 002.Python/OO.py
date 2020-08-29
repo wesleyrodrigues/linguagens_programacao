@@ -1,6 +1,6 @@
-class Conta:
+class Conta:                                                # Classe
     # Construtor, irá iniciar automaticamente.
-    def __init__(self, numero, titular, saldo, limite):
+    def __init__(self, numero, titular, saldo, limite):     # Construtor
         self.__numero = numero  # Atributo
         self.__titular = titular  # __ = privado (private)
         self.__saldo = saldo
@@ -8,26 +8,26 @@ class Conta:
 
     # def get_titular(self):
     @property
-    def titular(self):
+    def titular(self):                                      
         return self.__titular
 
     @property
-    def saldo(self):  # conta.saldo
+    def saldo(self):  # conta.saldo                         
         return self.__saldo
 
     @property  # conta.limite
-    def limite(self):  # Melhora a legibilidade
+    def limite(self):  # Melhora a legibilidade             
         return self.__limite
 
     @limite.setter  # conta.limite = 200.00
-    def limite(self, limite):  # Melhora a legibilidade
+    def limite(self, limite):  # Melhora a legibilidade     
         self.__limite = limite
 
-    def __pode_sacar(self, valor_a_sacar):
+    def __pode_sacar(self, valor_a_sacar):                  
         valor_disponivel_a_sacar = self.__saldo + self.__limite
         return valor_a_sacar <= valor_disponivel_a_sacar
 
-    def saca(self, valor):
+    def saca(self, valor):                                  
         if(self.__pode_sacar(valor)):
             self.__saldo -= valor
         else:
