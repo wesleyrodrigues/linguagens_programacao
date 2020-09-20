@@ -17,26 +17,26 @@ exemplo.backward(40)        # Move para trás e desenha em pixels.
 exemplo.bk(10)              # Move para trás e desenha em pixels.
 exemplo.back(5)             # Move para trás e desenha em pixels.
 
-exemplo.color("green")      # Linha 9
+exemplo.color("green")      # Linha 14
 
 exemplo.right(90)           # Vira para direita pelo angulo. 
 # exemplo.rt()              # Vira para direita pelo angulo.  
-exemplo.fd(25)              # Linha 7
+exemplo.fd(25)              # Linha 12
 
 exemplo.left(45)            # Vira para esquerda pelo angulo. 
 # exemplo.lt()              # Vira para esquerda pelo angulo.
 
-exemplo.color("#0000FF")    # Linha 9
+exemplo.color("#0000FF")    # Linha 14
 
 exemplo.goto(10, 20)        # Move para posição x, y
 # exemplo.setpos()          # Move para posição x, y
 # exemplo.setposition()     # Move para posição x, y
 
-exemplo.color("#7FFFD4")    # Linha 9
+exemplo.color("#7FFFD4")    # Linha 14
 
 exemplo.setx(50)            # Move para posição x
 
-exemplo.color("#006400")    # Linha 9
+exemplo.color("#006400")    # Linha 14
  
 exemplo.sety(50)            # Move para posição y
 
@@ -46,17 +46,17 @@ exemplo.setheading(180)     # Aponta para angulo definido
 # 90 = Cima
 # 180 = Esquerda
 # 270 = Baixo
-exemplo.color("#D2691E")    # Linha 9
+exemplo.color("#D2691E")    # Linha 14
 
 exemplo.home()              # Volta para posição inicial 0,0
 
-exemplo.color("#8A2BE2")    # Linha 9
+exemplo.color("#8A2BE2")    # Linha 14
 
 exemplo.setheading(90)     # Linha 38
 
 exemplo.circle(50, 180)    # Desenha circulo, 'graus, tamanho'
 
-exemplo.color("#ADFF2F")   # Linha 9
+exemplo.color("#ADFF2F")   # Linha 14
 
 exemplo.dot(10)            # Desenha um ponto
 
@@ -108,7 +108,8 @@ print(exemplo.ycor())           # Retorna coordenada de y
 # exemplo.pensize() | width()
 # exemplo.pen()
 # exemplo.isdown()
-# exemplo.Color control
+
+# Color control
 # exemplo.pencolor()
 # exemplo.fillcolor()
 # exemplo.Filling
@@ -123,7 +124,8 @@ print(exemplo.ycor())           # Retorna coordenada de y
 # exemplo.reset()
 # exemplo.clear()
 # exemplo.write()
-# exemplo.Turtle state
+
+# Turtle state
 # exemplo.Visibility
 # exemplo.showturtle() | st()
 # exemplo.hideturtle() | ht()
@@ -163,7 +165,8 @@ print(exemplo.ycor())           # Retorna coordenada de y
 
 # exemplo.bgcolor()
 # exemplo.bgpic()
-# exemplo.clear() | clearscreen()
+# exemplo.clear() | 
+# clearscreen()
 # exemplo.reset() | resetscreen()
 # exemplo.screensize()
 # exemplo.setworldcoordinates()
