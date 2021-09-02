@@ -7,17 +7,18 @@ import time
 def color(): return randint(0, 255)
 
 class Th(Thread):
-    def __init__ (self, turtleArg, pos):
+    def __init__ (self, turtleArg, col, linha):
         Thread.__init__(self)
         self.turtleArg = turtleArg
-        self.pos = pos
+        self.col = col
+        self.linha = linha
     
     def run(self):
         self.turtleArg.shape("turtle")
         self.turtleArg.pensize(5)
         self.turtleArg.color('#%02X%02X%02X' % (color(), color(), color()))
         self.turtleArg.speed(0)
-        self.turtleArg.goto(self.pos, self.pos)
+        self.turtleArg.goto(self.col, self.linha)
         # turtleArg.setx(pos)
         self.turtleArg.clear()
         # for i in range(0, 4):
@@ -28,8 +29,13 @@ class Th(Thread):
 
 # def teste1():
 # time.sleep(5)
-for i in range(0, 80, 2):
-    Th(turtle.Turtle(), i*5).start()
+tam = 7
+esp = 20
+
+for c in range(0, tam):
+    for l in range(0, tam):
+        if(c >= l):
+            Th(turtle.Turtle(), c*esp, l*esp).start()
 
     # t = thr.Thread(target=square, args=(turtle.Turtle(), i*5.))
     # t.isAlive()
